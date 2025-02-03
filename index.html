@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="./assets/img/favicon_fotogram.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body onload="displayImgs()">
+    <div class="container">
+      <header>
+        <img
+          src="./assets/img/logo_fotogram.svg"
+          alt="Logo image"
+          class="logo-img-header"
+        />
+      </header>
+      <main>
+        <h1>Your personal photo album</h1>
+        <div id="image-container"></div>
+
+        <div id="overlay" class="overlay d_none" onclick="closeModal()">
+          <div
+            id="modal-window"
+            class="modal-closed"
+            onclick="preventBubbling(event)"
+          ></div>
+        </div>
+      </main>
+      <footer>
+        <p>2025 Dora Telekesi</p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

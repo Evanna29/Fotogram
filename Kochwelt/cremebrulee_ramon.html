@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creme brulee</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/responsive.css">
+        <link rel="shortcut icon" href="assets/img/logo_small.png" type="image/x-icon">
+    </head>
+
+    <body onload='init("cremeBrulee")'>
+        <div class="resp_content">
+            <header>
+                <div class="logo_header">
+                    <a href="index.html"> <img src="./assets/img/logo.png" alt=""></a>
+                </div>
+
+                <div class="menu_header resp_menu_closed" id="resp_menu">
+                    <a href="./index.html">Start</a>
+                    <a href="cremebrulee_ramon.html" class="active">Rezept des Tages</a>
+                    <a href="./kontakt.html">Kontakt</a>
+                    <a href="./impressum.html">Impressum</a>
+
+                </div>
+                <div onclick="toggleRespMenu()" class="box">
+                    <div class="menubar menubar1"></div>
+                    <div class="menubar menubar2"></div>
+                    <div class="menubar menubar3"></div>
+                </div>
+            </header>
+
+            <section class="content">
+                <div class="image_container">
+                    <h1>Creme Brulee</h1>
+                    <img src="./assets/img/creme-brulee.jpg" alt="">
+                </div>
+                <div class="info_content">
+                    <div class="info_element"><img src="./assets/icons/clock-regular.svg" alt="">
+                        <p>30 Min.</p>
+                    </div>
+                    <div class="info_element"><img src="./assets/icons/brain-solid.svg" alt="">
+                        <p>normal</p>
+                    </div>
+                    <div class="info_element"><img src="./assets/icons/calendar-alt-regular.svg" alt="">
+                        <p>15.01.2024</p>
+                    </div>
+                </div>
+                <div class="ingredients_container">
+                    <div class="ingredients_calc">
+                        Zutaten für <input id="input_crowd" type="number" max="20" min="1" size="2" value="1" step="1"
+                            required><button onclick=' init("cremeBrulee")'>Portionen</button>
+
+                    </div>
+
+                    <div class="ingredients_content">
+                        <table>
+                            <tbody id="results">
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="preparation_container">
+                    <h2>Zubereitung</h2>
+                    <ol>
+                        <li>Caramel: Zucker in einer Chromstahlpfanne caramelisieren. Pfanne von der Platte nehmen,
+                            Wasser
+                            dazu
+                            giessen, zu einem Sirup einkochen, sofort in den ausgebutterten Förmchen verteilen.</li>
+
+                        <li>Crème: Eier in einer Schüssel aufrühren. Milch, Rahm und Zucker aufkochen, unter Rühren zu
+                            den
+                            Eiern geben, durch ein Sieb in ein Litermass giessen.
+                        </li>
+                        <li>
+                            Förmchen auf einen Lappen in ein ofenfestes Geschirr stellen. Flüssigkeit in die Förmchen
+                            füllen.
+                            Siedend heisses Wasser bis zu 2/3 Höhe der Förmchen auffüllen. Crème brûlée auf der
+                            zweituntersten
+                            Rille im auf 160°C vorgeheizten Ofen 35-40 Minuten garen. Wenn die Masse auf Fingerdruck nur
+                            noch
+                            wenig nachgibt, Förmchen herausnehmen.
+
+                        </li>
+                        <li>
+                            Crème brûlée auskühlen lassen, zugedeckt mindestens 2 Stunden kühl stellen. Vor dem
+                            Servieren
+                            mit
+                            Zucker bestreuen, mit einem Bunsenbrenner caramelisieren.
+                        </li>
+                        <li>
+                            Caramelisieren: Zucker auf die Crème brûlée streuen, mit einem Bunsenbrenner caramelisieren.
+                        </li>
+                        <li>
+                            Geschlagener Rahm: Rahm steif schlagen, nach Belieben süssen. Rahm in einen Spritzsack mit
+                            Sterntülle füllen, auf die Crème brûlée spritzen
+                        </li>
+                        <li>
+                            Garnitur: Mit Himbeeren und Minze garnieren.
+                        </li>
+                    </ol>
+
+                    <div class="profil_container">
+                        <h3>Rezept erstellt von:</h3>
+                        <div class="profil_content">
+                            <div class="profil_image">
+                                <img class="avatar" src="./assets/img/Ramon_foto.jpg" alt="Avatar">
+                            </div>
+                            <h4>Ramon Kunz</h4>
+                        </div>
+                    </div>
+            </section>
+            <footer>
+                <a href="index.html"><img id="logo-footer" src="assets/img/logo.png" alt="logo" /></a>
+                <a href="index.html" class="logo-footer-small-display"><img id="logo-footer-small"
+                        class="logo-footer-small" src="assets/img/logo_small.png" alt="logo" /></a>
+                <div id="footer-links">
+                    <a href="./impressum.html">Impressum</a>
+                    <a href="./kontakt.html">Kontakt</a>
+                    <a href="./datenschutz.html">Datenschutz</a>
+                </div>
+                <div id="social-media-links">
+                    <a href="https://www.facebook.com/"><img class="social-media-img" src="assets/img/facebook_logo.png"
+                            alt="" /></a>
+                    <a href="https://x.com/"><img class="social-media-img" src="assets/img/X-logo.png" alt="" /></a>
+                    <a href="https://www.instagram.com/"><img class="social-media-img"
+                            src="assets/img/instagrram_logo.png" alt="" /></a>
+                </div>
+            </footer>
+        </div>
+
+        <script src="scripts/script.js"></script>
+    </body>
+
+</html>

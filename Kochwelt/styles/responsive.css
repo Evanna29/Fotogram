@@ -1,0 +1,646 @@
+@media (max-width: 945px) {
+  /* Startseite */
+  .button-xl {
+    width: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .recipe-of-the-day-content img {
+    width: 300px;
+  }
+
+  .new-recipes {
+    padding: 10px;
+  }
+
+  .recipe-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  /* Rezepte */
+
+  .resp_content {
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  #menu-btn {
+    display: flex;
+    position: relative;
+    margin-left: 30vw;
+    margin-bottom: 30px;
+    margin-right: 10vw;
+    text-decoration: none;
+  }
+
+  .menu_header {
+    padding: 10px 18px;
+    border-radius: 0px 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 10px 0px;
+    background: #efefefff;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 195px;
+    padding: 0;
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    font-size: 14px;
+    margin: 0px;
+    transition: all 120ms ease-in-out;
+  }
+
+  .menu_header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding: 16px 12px;
+    margin: 0;
+  }
+
+  .menu_header a:hover {
+    background-color: #d7dcdf;
+    border-radius: 10px;
+    transform: scale(1.05);
+    color: #0f790e;
+    font-weight: 700;
+    border-bottom: none;
+  }
+
+  .resp_menu_open {
+    transform: translateX(0);
+  }
+
+  .resp_menu_closed {
+    transform: translateX(100%);
+  }
+
+  .box {
+    display: block;
+    height: 40px;
+  }
+
+  .logo_header img {
+    margin-left: 100px;
+    margin-top: 35px;
+    width: 200px;
+  }
+
+  .image_container img {
+    width: 80vh;
+  }
+
+  .info_content {
+    margin-left: 85px;
+  }
+
+  .ingredients_container {
+    width: 80%;
+    align-self: center;
+  }
+
+  .preparation_container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .profil_image {
+    width: 120px;
+    height: 120px;
+    margin-left: 0px;
+  }
+
+  .profil_name {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .contact_container {
+    width: 80%;
+    height: 80%;
+    margin: 0;
+  }
+
+  .menubar {
+    height: 5px;
+    width: 40px;
+  }
+
+  .box {
+    top: 40px;
+    right: 70px;
+  }
+
+  #generator_results_content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 870px) {
+  .logo_header img {
+    width: 180px;
+  }
+
+  .preparation_container {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    width: 80%;
+  }
+
+  .info_content {
+    margin-left: 20px;
+  }
+
+  .preparation_time {
+    width: 80%;
+  }
+
+  .content {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .image_container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ingredients_calc input {
+    width: 80px;
+  }
+
+  .ingredients_calc button {
+    width: 100px;
+  }
+
+  .profil_image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profil_name {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .mail_sended {
+    font-size: 14px;
+  }
+
+  .wrong_number {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 850px) {
+  #logo-footer {
+    display: none;
+    position: absolute;
+  }
+
+  #logo-footer-small {
+    display: flex;
+    position: relative;
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .recipe-of-the-day-content img {
+    margin: 0px;
+  }
+
+  .logo-footer-small-display {
+    display: block;
+  }
+
+  #footer-links {
+    position: relative;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .social-media-img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+
+  .table_dora td {
+    font-size: 14px;
+  }
+  .recipe-of-the-day-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .start_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 740px) {
+  .new-recipes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-recipes a {
+    padding-bottom: 50px;
+  }
+
+  .new-recipes h2 {
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 590px) {
+  .wrong_number {
+    font-size: 14px;
+  }
+
+  .table_dora td {
+    font-size: 12px;
+  }
+
+  .table_dora .td-left {
+    width: 1%;
+  }
+
+  .table_dora .td-right {
+    width: 10%;
+  }
+}
+
+/* Punkt 3: Max-Breite 480px */
+@media (max-width: 480px) {
+  .wrong_number {
+    font-size: 12px;
+  }
+
+  .logo_header img {
+    margin-left: 25px;
+    width: 150px;
+  }
+
+  .image_container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info_element {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  .profil_image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profil_name {
+    font-size: 12px;
+  }
+
+  .contact_container {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .send_button button {
+    font-size: 14px;
+  }
+
+  .menubar {
+    height: 5px;
+    width: 40px;
+  }
+
+  .box {
+    top: 40px;
+    right: 30px;
+  }
+
+  .mail_sended {
+    font-size: 12px;
+  }
+
+  #generator_results_content {
+    font-size: 12px;
+  }
+
+  .table_dora td {
+    font-size: 10px;
+  }
+  .button-xl {
+    width: 130px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .image_container img {
+    width: 95%;
+    height: auto;
+  }
+
+  .wrong_number {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .info_element {
+    font-size: 10px;
+    padding: 4px;
+  }
+
+  .ingredients_container {
+    align-self: center;
+    font-size: 14px;
+  }
+
+  .ingredients_calc input {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .ingredients_calc button {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .preparation_container {
+    font-size: 12px;
+  }
+
+  .info_content {
+    margin-left: 20px;
+  }
+
+  .info_time {
+    display: flex;
+    flex-direction: column;
+    font-size: 9px;
+  }
+
+  .info_time img {
+    align-self: center;
+    padding: 2px;
+    width: 10px;
+  }
+
+  .preparation_time {
+    width: 100%;
+  }
+
+  .profil_image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profil_name {
+    font-size: 12px;
+  }
+
+  .contact_container {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .contact_container input {
+    height: 2px;
+    font-size: 10px;
+  }
+
+  .contact_container textarea {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .send_button button {
+    font-size: 12px;
+  }
+
+  .menubar {
+    height: 5px;
+    width: 40px;
+  }
+
+  .box {
+    top: 40px;
+    right: 30px;
+  }
+
+  .mail_sended {
+    font-size: 10px;
+  }
+
+  .menu_header {
+    font-size: 10px;
+    height: 145px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  #logo-footer-small {
+    width: 50px;
+    height: auto;
+    margin-left: -5vw;
+  }
+
+  #footer-links {
+    font-size: 13px;
+  }
+
+  .impressum {
+    font-size: 12px;
+  }
+
+  .table_dora .td-left {
+    width: 1%;
+  }
+
+  .table_dora .td-right {
+    width: 10%;
+  }
+}
+
+@media (max-width: 385px) {
+  .ingredients_calc input {
+    width: 63px;
+    font-size: 11px;
+  }
+
+  .ingredients_calc button {
+    width: 63px;
+    font-size: 11px;
+  }
+
+  .impressum {
+    font-size: 10px;
+  }
+
+  #social-media-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-media-img {
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+  }
+
+  .table_dora .td-left {
+    width: 1%;
+  }
+
+  .table_dora .td-right {
+    width: 11%;
+  }
+
+  .table_dora td {
+    font-size: 9px;
+  }
+  .recipe-of-the-day-content img {
+    width: 250px;
+    margin: 0px;
+  }
+  .lawn-section {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 345px) {
+  .ingredients_calc input {
+    width: 60px;
+    font-size: 12px;
+  }
+
+  .ingredients_calc button {
+    width: 60px;
+    font-size: 10px;
+  }
+
+  .ingredients_calc {
+    padding: 2px;
+  }
+
+  .mail_sended {
+    font-size: 9px;
+  }
+
+  .wrong_number {
+    font-size: 8px;
+    padding: 8px;
+  }
+  .start_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .article {
+    font-size: 14px;
+  }
+  .article-section {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/* Punkt 4: Max-Breite 320px */
+@media (max-width: 320px) {
+  .content {
+    padding-left: 0;
+  }
+  .start_index {
+    padding: 0;
+  }
+
+  .logo_header img {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .image_container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info_element {
+    font-size: 8px;
+    padding: 2px;
+  }
+
+  .ingredients_container {
+    width: 80%;
+    font-size: 10px;
+  }
+
+  .preparation_container {
+    width: 80%;
+    padding: 5px;
+  }
+
+  .info_time {
+    font-size: 9px;
+  }
+
+  .info_time img {
+    width: 8px;
+  }
+
+  .profil_image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profil_name {
+    font-size: 10px;
+  }
+
+  .menubar {
+    margin: 5px;
+    height: 4px;
+    width: 30px;
+  }
+
+  .box {
+    top: 48px;
+    right: 30px;
+  }
+
+  .impressum {
+    font-size: 9px;
+  }
+}
